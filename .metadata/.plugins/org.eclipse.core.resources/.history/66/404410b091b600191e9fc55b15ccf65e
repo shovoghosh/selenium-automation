@@ -1,0 +1,26 @@
+package net.automation.sqt;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class TestItem2 {
+
+	public static void main(String[] args) {
+		
+		// Clicked on the ‘Academic Calendar’, it displays the academic calendar for all semesters.
+		
+				WebDriver driver = Base.getDriver();
+				
+				//Navigating Web-site
+				//go to www.aiub.edu
+				
+				driver.get("http://www.aiub.edu");
+				
+				Actions action = new Actions(driver);
+		
+		
+		
+
+	}
+
+}

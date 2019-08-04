@@ -1,0 +1,20 @@
+package net.automation.sqt;
+
+import org.openqa.selenium.WebDriver;
+
+public class LoginTest {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver = Base.getDriver();
+		
+		//Navigating website
+		//go to www.aiub.edu
+		
+		driver.get("http://www.aiub.edu");
+		
+		
+
+	}
+
+}

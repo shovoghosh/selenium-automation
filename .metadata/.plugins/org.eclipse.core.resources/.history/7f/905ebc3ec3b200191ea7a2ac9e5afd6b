@@ -1,0 +1,25 @@
+package net.automation.sqt;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class LoginTest {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver = Base.getDriver();
+		
+		//Navigating website
+		//go to www.aiub.edu
+		
+		driver.get("http://www.aiub.edu");
+		
+		//click on login
+		//find login element
+		
+		WebElement element=driver.findElement(By.linkText("http://portal.aiub.edu/"));
+
+	}
+
+}

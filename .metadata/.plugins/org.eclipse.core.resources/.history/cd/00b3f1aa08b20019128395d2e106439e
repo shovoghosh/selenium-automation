@@ -1,0 +1,20 @@
+package net.automation.sqt;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Base {
+
+	
+	public static WebDriver getDriver()
+	{
+		System.setProperty("webdriver.chrome.driver","c:\\chromedriver.exe");
+		WebDriver drive = new ChromeDriver();
+		drive.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		return drive;
+	}
+	
+	
+}

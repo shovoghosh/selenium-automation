@@ -1,0 +1,12 @@
+package net.automation.sqt;
+
+public class TestItem3 {
+
+	public static void main(String[] args) {
+		
+		//Clicked on Faculty of Science & Information Technology, the system displays a page titled 
+		//Faculty of Science & Information Technology
+
+	}
+
+}

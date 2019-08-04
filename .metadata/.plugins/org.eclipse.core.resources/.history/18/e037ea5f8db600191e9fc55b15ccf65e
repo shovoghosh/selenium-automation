@@ -1,0 +1,12 @@
+package net.automation.sqt;
+
+public class TestItem1 {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+
+}
